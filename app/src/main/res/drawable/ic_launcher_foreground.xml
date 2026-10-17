@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group>
+        <!-- Document Backplate with Saffron/Gold accent -->
+        <!-- Center safe area: (30,26) to (78,82) -->
+        <!-- Shadow/Back layer -->
+        <path
+            android:fillColor="#33000000"
+            android:pathData="M33,29h42c2.2,0 4,1.8 4,4v48c0,2.2 -1.8,4 -4,4H33c-2.2,0 -4,-1.8 -4,-4V33c0,-2.2 1.8,-4 4,-4z" />
+        <!-- Main Document Sheet (White) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M31,27h42c2.2,0 4,1.8 4,4v48c0,2.2 -1.8,4 -4,4H31c-2.2,0 -4,-1.8 -4,-4V31c0,-2.2 1.8,-4 4,-4z" />
+        <!-- Top Official Header Bar (Saffron / Deep Orange) -->
+        <path
+            android:fillColor="#E65100"
+            android:pathData="M31,27h42c2.2,0 4,1.8 4,4v7H27v-7c0,-2.2 1.8,-4 4,-4z" />
+        <!-- Notification Lines -->
+        <path
+            android:fillColor="#DCE5ED"
+            android:pathData="M34,44h36v3H34z" />
+        <path
+            android:fillColor="#DCE5ED"
+            android:pathData="M34,51h24v3H34z" />
+        <path
+            android:fillColor="#DCE5ED"
+            android:pathData="M34,58h18v3H34z" />
+        <!-- Verified Checkmark Badge Circle in Gold / Emerald -->
+        <path
+            android:fillColor="#00897B"
+            android:pathData="M65,65m-13,0a13,13 0 1,1 26,0a13,13 0 1,1 -26,0" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M60.8,65.3l-3.2,-3.2l-1.9,1.9l5.1,5.1l11,-11l-1.9,-1.9z" />
+        <!-- Star Emblem on top bar -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M52,30.5l1.2,2.5l2.8,0.4l-2,2l0.5,2.8l-2.5,-1.3l-2.5,1.3l0.5,-2.8l-2,-2l2.8,-0.4z" />
+    </group>
+</vector>
